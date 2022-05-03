@@ -5,6 +5,8 @@ we’ll briefly discuss what face blurring is and how we can use OpenCV to anony
 Image, ImageOps,
 numpy 
 matplotlib
+# Instruction
+you have to download the files and store them in your google drive and change the path to new path.
 # Run
 Pip install unitiled1.ipynb
 # Describtion
