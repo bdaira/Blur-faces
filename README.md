@@ -32,11 +32,8 @@ The below code reads this image, prepares it, and pass it to the neural network:
 # read the desired image
 image = cv2.imread("father-and-daughter.jpg")
 # get width and height of the image
-h, w = image.shape[:2]
+
 # gaussian blur kernel size depends on width and height of original image
 kernel_width = (w // 7) | 1
 kernel_height = (h // 7) | 1
-# preprocess the image: resize and performs mean subtraction
-blob = cv2.dnn.blobFromImage(image, 1.0, (300, 300), (104.0, 177.0, 123.0))
-# set the image into the input of the neural network
-model.setInput(blob)
+
