@@ -8,7 +8,7 @@ matplotlib
 # Instruction
 you have to download the files and store them in your google drive and change the path to new path.
 # Run
-Pip install unitiled1.ipynb
+Pip install unitiled0.ipynb
 # Describtion
 
 In order to blur faces shown in images, you need to first detect these faces and their position in the image.
