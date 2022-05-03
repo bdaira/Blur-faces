@@ -9,7 +9,7 @@ matplotlib
 Pip install unitiled1.ipynb
 # Describtion
 
-In order to blur faces shown in images, you need to first detect these faces and their position in the image. Luckily for us, I already wrote a tutorial on face detection, we'll only be using its source code, feel free to check it out for further detail on how the face detection code works.
+In order to blur faces shown in images, you need to first detect these faces and their position in the image.
 
 To get started, installing the required dependencies:
 
